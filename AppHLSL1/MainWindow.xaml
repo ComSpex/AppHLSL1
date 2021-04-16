@@ -1,0 +1,20 @@
+﻿<Window x:Class="AppHLSL1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppHLSL1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="357.461" Width="582.615">
+	<Canvas>
+		<!-- page 60 -->
+		<Canvas.Effect>
+			<DropShadowEffect />
+		</Canvas.Effect>
+		<Button Content="Blurred and Shadowed" Width="180" Height="50">
+			<Button.Effect>
+				<BlurEffect />
+			</Button.Effect>
+		</Button>
+	</Canvas>
+	</Window>
